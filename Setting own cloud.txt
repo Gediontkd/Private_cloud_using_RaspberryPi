@@ -1,7 +1,6 @@
-
 **Step 10 to 12**
 
-10. Now let’s configure the web server configuration so that it runs Owncloud correctly.
+10. Now letâ€™s configure the web server configuration so that it runs Owncloud correctly.
 
 sudo nano /etc/nginx/sites-available/default
 
