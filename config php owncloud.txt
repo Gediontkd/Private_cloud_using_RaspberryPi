@@ -1,3 +1,4 @@
+
 **step 13 to 23**
 
 13. Now that is done there is a few more configurations we will need to update, first open up the PHP config file by entering.
@@ -42,7 +43,7 @@ upload_max_filesize=2000M
 post_max_size=2000M
 
 memory_limit=2000M
-23. Now that is done we should be able to connect to Owncloud at your PI’s IP address.
+23. Now that is done we should be able to connect to Owncloud at your PIâ€™s IP address.
 
 Before you set up the admin account, you might want to mount an external drive, so you have lots of disk space for your Raspberry Pi Owncloud Server. 
 
