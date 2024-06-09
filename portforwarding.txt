@@ -1,7 +1,7 @@
 Enter the following to bring up our default server file:
 
 sudo nano /etc/nginx/sites-available/default
-Once you have updated the IP’s in the server file, you will need to add the external IP to your trusted IP list and make sure Owncloud doesn’t overwrite it. To do this open up the Owncloud config file and enter:
+Once you have updated the IPâ€™s in the server file, you will need to add the external IP to your trusted IP list and make sure Owncloud doesnâ€™t overwrite it. To do this open up the Owncloud config file and enter:
 
 sudo nano /var/www/owncloud/config/config.php
 In here add a new item to the trusted domains array (This will be your external IP address). Your new entry should look something like this (x are just placeholders).
@@ -10,6 +10,7 @@ In here add a new item to the trusted domains array (This will be your external 
 Finally update the URL of the overwrite.cli.url line to your IP Address. It should look something like this.
 
 'overwrite.cli.url' => 'https://xxx.xxx.xxx.xxx',
+
 
 Once done, restart the Nginx service by entering the following:
 
